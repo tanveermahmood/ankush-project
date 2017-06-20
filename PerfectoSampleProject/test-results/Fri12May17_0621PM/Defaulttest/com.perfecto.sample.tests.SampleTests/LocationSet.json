@@ -1,0 +1,1877 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "[id: 0]",
+      "subLogs": [],
+      "duration": 3853
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "id: 1",
+      "subLogs": [],
+      "duration": 1109
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.xpath: //UIANavigationBar",
+        "{\"using\":\"xpath\",\"id\":\"1\",\"value\":\"//UIAButton[@name='Back']\"}"
+      ],
+      "result": "findChildElements:[id: 2]",
+      "subLogs": [],
+      "duration": 1427
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "[id: 3]",
+      "subLogs": [],
+      "duration": 1219
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "id: 4",
+      "subLogs": [],
+      "duration": 1422
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.xpath: //UIANavigationBar",
+        "{\"using\":\"xpath\",\"id\":\"4\",\"value\":\"//UIAButton[@name='Back']\"}"
+      ],
+      "result": "findChildElements:[id: 5]",
+      "subLogs": [],
+      "duration": 1330
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "id: 6",
+      "subLogs": [],
+      "duration": 1515
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //UIANavigationBar",
+        "{\"using\":\"xpath\",\"id\":\"6\",\"value\":\"//UIAButton[@name='Back']\"}"
+      ],
+      "result": "findChildElement:id: 7",
+      "subLogs": [],
+      "duration": 1423
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //UIAButton[@name='Back']",
+        "{\"id\":\"7\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 2563
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "id: 8",
+      "subLogs": [],
+      "duration": 2469
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //UIANavigationBar",
+        "{\"using\":\"xpath\",\"id\":\"8\",\"value\":\"//UIAButton[@name='Logout']\"}"
+      ],
+      "result": "findChildElement:id: 9",
+      "subLogs": [],
+      "duration": 1922
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //UIAButton[@name='Logout']",
+        "{\"id\":\"9\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 3031
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATextField, using=xpath}"
+      ],
+      "result": "id: 10",
+      "subLogs": [],
+      "duration": 1407
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: //UIATextField",
+        "{\"id\":\"10\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 7204
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATextField, using=xpath}"
+      ],
+      "result": "id: 11",
+      "subLogs": [],
+      "duration": 2644
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //UIATextField",
+        "{\"id\":\"11\",\"value\":[\"test@test.com\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 2629
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIASecureTextField, using=xpath}"
+      ],
+      "result": "id: 12",
+      "subLogs": [],
+      "duration": 1422
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: //UIASecureTextField",
+        "{\"id\":\"12\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 3829
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIASecureTextField, using=xpath}"
+      ],
+      "result": "id: 13",
+      "subLogs": [],
+      "duration": 1625
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //UIASecureTextField",
+        "{\"id\":\"13\",\"value\":[\"test\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 2516
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=Submit, using=name}"
+      ],
+      "result": "id: 14",
+      "subLogs": [],
+      "duration": 1453
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: Submit",
+        "{\"id\":\"14\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 2591
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIATableCell, using=xpath}"
+      ],
+      "result": "[id: 15, id: 16, id: 17, id: 18, id: 19]",
+      "subLogs": [],
+      "duration": 1828
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIATableCell, using=xpath}"
+      ],
+      "result": "[id: 20, id: 21, id: 22, id: 23, id: 24]",
+      "subLogs": [],
+      "duration": 2126
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 25",
+      "subLogs": [],
+      "duration": 1906
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[1]",
+        "{\"id\":\"25\"}"
+      ],
+      "result": "getElementText:Laptop Screen Replacement",
+      "subLogs": [],
+      "duration": 2923
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[2], using=xpath}"
+      ],
+      "result": "id: 26",
+      "subLogs": [],
+      "duration": 1813
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[2]",
+        "{\"id\":\"26\"}"
+      ],
+      "result": "getElementText:Infostretch Corporation",
+      "subLogs": [],
+      "duration": 2943
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 27",
+      "subLogs": [],
+      "duration": 1891
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[3]",
+        "{\"id\":\"27\"}"
+      ],
+      "result": "getElementText:321.92 miles",
+      "subLogs": [],
+      "duration": 2926
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[2]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 28",
+      "subLogs": [],
+      "duration": 1820
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[2]/UIAStaticText[1]",
+        "{\"id\":\"28\"}"
+      ],
+      "result": "getElementText:Microwave Repairing",
+      "subLogs": [],
+      "duration": 2922
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[2]/UIAStaticText[2], using=xpath}"
+      ],
+      "result": "id: 29",
+      "subLogs": [],
+      "duration": 1938
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[2]/UIAStaticText[2]",
+        "{\"id\":\"29\"}"
+      ],
+      "result": "getElementText:Microwave Repairing",
+      "subLogs": [],
+      "duration": 2922
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[2]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 30",
+      "subLogs": [],
+      "duration": 1922
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[2]/UIAStaticText[3]",
+        "{\"id\":\"30\"}"
+      ],
+      "result": "getElementText:322.07 miles",
+      "subLogs": [],
+      "duration": 2938
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[3]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 31",
+      "subLogs": [],
+      "duration": 1704
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[3]/UIAStaticText[1]",
+        "{\"id\":\"31\"}"
+      ],
+      "result": "getElementText:Laptop Motherboard Replacement",
+      "subLogs": [],
+      "duration": 3048
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[3]/UIAStaticText[2], using=xpath}"
+      ],
+      "result": "id: 32",
+      "subLogs": [],
+      "duration": 1937
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[3]/UIAStaticText[2]",
+        "{\"id\":\"32\"}"
+      ],
+      "result": "getElementText:Laptop Motherboard Replacement",
+      "subLogs": [],
+      "duration": 3344
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[3]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 33",
+      "subLogs": [],
+      "duration": 2386
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[3]/UIAStaticText[3]",
+        "{\"id\":\"33\"}"
+      ],
+      "result": "getElementText:322.35 miles",
+      "subLogs": [],
+      "duration": 2922
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[4]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 34",
+      "subLogs": [],
+      "duration": 1818
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[4]/UIAStaticText[1]",
+        "{\"id\":\"34\"}"
+      ],
+      "result": "getElementText:Router Replacement",
+      "subLogs": [],
+      "duration": 3140
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[4]/UIAStaticText[2], using=xpath}"
+      ],
+      "result": "id: 35",
+      "subLogs": [],
+      "duration": 1719
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[4]/UIAStaticText[2]",
+        "{\"id\":\"35\"}"
+      ],
+      "result": "getElementText:Router Replacement",
+      "subLogs": [],
+      "duration": 2938
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[4]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 36",
+      "subLogs": [],
+      "duration": 2033
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[4]/UIAStaticText[3]",
+        "{\"id\":\"36\"}"
+      ],
+      "result": "getElementText:322.45 miles",
+      "subLogs": [],
+      "duration": 2922
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[5]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 37",
+      "subLogs": [],
+      "duration": 1829
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[5]/UIAStaticText[1]",
+        "{\"id\":\"37\"}"
+      ],
+      "result": "getElementText:Laptop RAM Upgrade",
+      "subLogs": [],
+      "duration": 2922
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[5]/UIAStaticText[2], using=xpath}"
+      ],
+      "result": "id: 38",
+      "subLogs": [],
+      "duration": 1923
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[5]/UIAStaticText[2]",
+        "{\"id\":\"38\"}"
+      ],
+      "result": "getElementText:Laptop RAM Upgrade",
+      "subLogs": [],
+      "duration": 2922
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[5]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 39",
+      "subLogs": [],
+      "duration": 1922
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[5]/UIAStaticText[3]",
+        "{\"id\":\"39\"}"
+      ],
+      "result": "getElementText:322.66 miles",
+      "subLogs": [],
+      "duration": 2844
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIATableCell, using=xpath}"
+      ],
+      "result": "[id: 40, id: 41, id: 42, id: 43, id: 44]",
+      "subLogs": [],
+      "duration": 1924
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIATableCell, using=xpath}"
+      ],
+      "result": "[id: 45, id: 46, id: 47, id: 48, id: 49]",
+      "subLogs": [],
+      "duration": 1831
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 50",
+      "subLogs": [],
+      "duration": 1704
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[3]",
+        "{\"id\":\"50\"}"
+      ],
+      "result": "getElementText:321.92 miles",
+      "subLogs": [],
+      "duration": 2937
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 51",
+      "subLogs": [],
+      "duration": 2016
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[1]",
+        "{\"id\":\"51\"}"
+      ],
+      "result": "getElementText:Laptop Screen Replacement",
+      "subLogs": [],
+      "duration": 2829
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 52",
+      "subLogs": [],
+      "duration": 1829
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[3]",
+        "{\"id\":\"52\"}"
+      ],
+      "result": "getElementText:321.92 miles",
+      "subLogs": [],
+      "duration": 3125
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 53",
+      "subLogs": [],
+      "duration": 1736
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[1]",
+        "{\"id\":\"53\"}"
+      ],
+      "result": "getElementText:Laptop Screen Replacement",
+      "subLogs": [],
+      "duration": 2922
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[2]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 54",
+      "subLogs": [],
+      "duration": 1828
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[2]/UIAStaticText[3]",
+        "{\"id\":\"54\"}"
+      ],
+      "result": "getElementText:322.07 miles",
+      "subLogs": [],
+      "duration": 2923
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[2]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 55",
+      "subLogs": [],
+      "duration": 1922
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[2]/UIAStaticText[1]",
+        "{\"id\":\"55\"}"
+      ],
+      "result": "getElementText:Microwave Repairing",
+      "subLogs": [],
+      "duration": 2919
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[2]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 56",
+      "subLogs": [],
+      "duration": 1851
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[2]/UIAStaticText[3]",
+        "{\"id\":\"56\"}"
+      ],
+      "result": "getElementText:322.07 miles",
+      "subLogs": [],
+      "duration": 2922
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[2]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 57",
+      "subLogs": [],
+      "duration": 1832
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[2]/UIAStaticText[1]",
+        "{\"id\":\"57\"}"
+      ],
+      "result": "getElementText:Microwave Repairing",
+      "subLogs": [],
+      "duration": 2924
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[3]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 58",
+      "subLogs": [],
+      "duration": 1937
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[3]/UIAStaticText[3]",
+        "{\"id\":\"58\"}"
+      ],
+      "result": "getElementText:322.35 miles",
+      "subLogs": [],
+      "duration": 2922
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[3]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 59",
+      "subLogs": [],
+      "duration": 2032
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[3]/UIAStaticText[1]",
+        "{\"id\":\"59\"}"
+      ],
+      "result": "getElementText:Laptop Motherboard Replacement",
+      "subLogs": [],
+      "duration": 2719
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[3]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 60",
+      "subLogs": [],
+      "duration": 1939
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[3]/UIAStaticText[3]",
+        "{\"id\":\"60\"}"
+      ],
+      "result": "getElementText:322.35 miles",
+      "subLogs": [],
+      "duration": 2906
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[3]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 61",
+      "subLogs": [],
+      "duration": 1928
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[3]/UIAStaticText[1]",
+        "{\"id\":\"61\"}"
+      ],
+      "result": "getElementText:Laptop Motherboard Replacement",
+      "subLogs": [],
+      "duration": 2906
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[4]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 62",
+      "subLogs": [],
+      "duration": 1828
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[4]/UIAStaticText[3]",
+        "{\"id\":\"62\"}"
+      ],
+      "result": "getElementText:322.45 miles",
+      "subLogs": [],
+      "duration": 2930
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[4]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 63",
+      "subLogs": [],
+      "duration": 1937
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[4]/UIAStaticText[1]",
+        "{\"id\":\"63\"}"
+      ],
+      "result": "getElementText:Router Replacement",
+      "subLogs": [],
+      "duration": 2938
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[4]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 64",
+      "subLogs": [],
+      "duration": 1923
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[4]/UIAStaticText[3]",
+        "{\"id\":\"64\"}"
+      ],
+      "result": "getElementText:322.45 miles",
+      "subLogs": [],
+      "duration": 2922
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[4]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 65",
+      "subLogs": [],
+      "duration": 1820
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[4]/UIAStaticText[1]",
+        "{\"id\":\"65\"}"
+      ],
+      "result": "getElementText:Router Replacement",
+      "subLogs": [],
+      "duration": 2923
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[5]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 66",
+      "subLogs": [],
+      "duration": 1828
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[5]/UIAStaticText[3]",
+        "{\"id\":\"66\"}"
+      ],
+      "result": "getElementText:322.66 miles",
+      "subLogs": [],
+      "duration": 3032
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[5]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 67",
+      "subLogs": [],
+      "duration": 1812
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[5]/UIAStaticText[1]",
+        "{\"id\":\"67\"}"
+      ],
+      "result": "getElementText:Laptop RAM Upgrade",
+      "subLogs": [],
+      "duration": 2923
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[5]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 68",
+      "subLogs": [],
+      "duration": 1829
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[5]/UIAStaticText[3]",
+        "{\"id\":\"68\"}"
+      ],
+      "result": "getElementText:322.66 miles",
+      "subLogs": [],
+      "duration": 3017
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[5]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 69",
+      "subLogs": [],
+      "duration": 1822
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[5]/UIAStaticText[1]",
+        "{\"id\":\"69\"}"
+      ],
+      "result": "getElementText:Laptop RAM Upgrade",
+      "subLogs": [],
+      "duration": 3016
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIATableCell, using=xpath}"
+      ],
+      "result": "[id: 70, id: 71, id: 72, id: 73, id: 74]",
+      "subLogs": [],
+      "duration": 1813
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 75",
+      "subLogs": [],
+      "duration": 2828
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[1]",
+        "{\"id\":\"75\"}"
+      ],
+      "result": "getElementText:Laptop Screen Replacement",
+      "subLogs": [],
+      "duration": 2938
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIATableCell, using=xpath}"
+      ],
+      "result": "[id: 76, id: 77, id: 78, id: 79, id: 80]",
+      "subLogs": [],
+      "duration": 1812
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[2], using=xpath}"
+      ],
+      "result": "id: 81",
+      "subLogs": [],
+      "duration": 1923
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[2]",
+        "{\"id\":\"81\"}"
+      ],
+      "result": "getElementText:Infostretch Corporation",
+      "subLogs": [],
+      "duration": 2937
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 1470
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "[id: 82]",
+      "subLogs": [],
+      "duration": 1328
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "id: 83",
+      "subLogs": [],
+      "duration": 1234
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.xpath: //UIANavigationBar",
+        "{\"using\":\"xpath\",\"id\":\"83\",\"value\":\"//UIAButton[@name='Logout']\"}"
+      ],
+      "result": "findChildElements:[]",
+      "subLogs": [],
+      "duration": 1317
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATextField, using=xpath}"
+      ],
+      "result": "id: 84",
+      "subLogs": [],
+      "duration": 1344
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: //UIATextField",
+        "{\"id\":\"84\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 4040
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATextField, using=xpath}"
+      ],
+      "result": "id: 85",
+      "subLogs": [],
+      "duration": 1422
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //UIATextField",
+        "{\"id\":\"85\",\"value\":[\"test@test.com\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 2688
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIASecureTextField, using=xpath}"
+      ],
+      "result": "id: 86",
+      "subLogs": [],
+      "duration": 1360
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: //UIASecureTextField",
+        "{\"id\":\"86\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 3672
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIASecureTextField, using=xpath}"
+      ],
+      "result": "id: 87",
+      "subLogs": [],
+      "duration": 2594
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //UIASecureTextField",
+        "{\"id\":\"87\",\"value\":[\"test\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 3766
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=Submit, using=name}"
+      ],
+      "result": "id: 88",
+      "subLogs": [],
+      "duration": 2282
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: Submit",
+        "{\"id\":\"88\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 4516
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIATableCell, using=xpath}"
+      ],
+      "result": "[id: 89, id: 90, id: 91, id: 92, id: 93]",
+      "subLogs": [],
+      "duration": 3037
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIATableCell, using=xpath}"
+      ],
+      "result": "[id: 94, id: 95, id: 96, id: 97, id: 98]",
+      "subLogs": [],
+      "duration": 2611
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 99",
+      "subLogs": [],
+      "duration": 2749
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[3]",
+        "{\"id\":\"99\"}"
+      ],
+      "result": "getElementText:4.36 miles",
+      "subLogs": [],
+      "duration": 4735
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 100",
+      "subLogs": [],
+      "duration": 2813
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[1]",
+        "{\"id\":\"100\"}"
+      ],
+      "result": "getElementText:Laptop Screen Replacement",
+      "subLogs": [],
+      "duration": 4829
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 101",
+      "subLogs": [],
+      "duration": 2737
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[3]",
+        "{\"id\":\"101\"}"
+      ],
+      "result": "getElementText:4.36 miles",
+      "subLogs": [],
+      "duration": 4704
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 102",
+      "subLogs": [],
+      "duration": 2938
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[1]",
+        "{\"id\":\"102\"}"
+      ],
+      "result": "getElementText:Laptop Screen Replacement",
+      "subLogs": [],
+      "duration": 4621
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[2]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 103",
+      "subLogs": [],
+      "duration": 2727
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[2]/UIAStaticText[3]",
+        "{\"id\":\"103\"}"
+      ],
+      "result": "getElementText:4.80 miles",
+      "subLogs": [],
+      "duration": 4829
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[2]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 104",
+      "subLogs": [],
+      "duration": 2845
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[2]/UIAStaticText[1]",
+        "{\"id\":\"104\"}"
+      ],
+      "result": "getElementText:Microwave Repairing",
+      "subLogs": [],
+      "duration": 4817
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[2]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 105",
+      "subLogs": [],
+      "duration": 2735
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[2]/UIAStaticText[3]",
+        "{\"id\":\"105\"}"
+      ],
+      "result": "getElementText:4.80 miles",
+      "subLogs": [],
+      "duration": 4720
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[2]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 106",
+      "subLogs": [],
+      "duration": 2836
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[2]/UIAStaticText[1]",
+        "{\"id\":\"106\"}"
+      ],
+      "result": "getElementText:Microwave Repairing",
+      "subLogs": [],
+      "duration": 4726
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[3]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 107",
+      "subLogs": [],
+      "duration": 3063
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[3]/UIAStaticText[3]",
+        "{\"id\":\"107\"}"
+      ],
+      "result": "getElementText:5.26 miles",
+      "subLogs": [],
+      "duration": 4648
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[3]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 108",
+      "subLogs": [],
+      "duration": 2719
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[3]/UIAStaticText[1]",
+        "{\"id\":\"108\"}"
+      ],
+      "result": "getElementText:Router Replacement",
+      "subLogs": [],
+      "duration": 4830
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[3]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 109",
+      "subLogs": [],
+      "duration": 2736
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[3]/UIAStaticText[3]",
+        "{\"id\":\"109\"}"
+      ],
+      "result": "getElementText:5.26 miles",
+      "subLogs": [],
+      "duration": 5010
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[3]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 110",
+      "subLogs": [],
+      "duration": 2735
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[3]/UIAStaticText[1]",
+        "{\"id\":\"110\"}"
+      ],
+      "result": "getElementText:Router Replacement",
+      "subLogs": [],
+      "duration": 4813
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[4]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 111",
+      "subLogs": [],
+      "duration": 2639
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[4]/UIAStaticText[3]",
+        "{\"id\":\"111\"}"
+      ],
+      "result": "getElementText:5.36 miles",
+      "subLogs": [],
+      "duration": 5313
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[4]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 112",
+      "subLogs": [],
+      "duration": 2531
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[4]/UIAStaticText[1]",
+        "{\"id\":\"112\"}"
+      ],
+      "result": "getElementText:Laptop RAM Upgrade",
+      "subLogs": [],
+      "duration": 4720
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[4]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 113",
+      "subLogs": [],
+      "duration": 2829
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[4]/UIAStaticText[3]",
+        "{\"id\":\"113\"}"
+      ],
+      "result": "getElementText:5.36 miles",
+      "subLogs": [],
+      "duration": 4819
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[4]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 114",
+      "subLogs": [],
+      "duration": 2735
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[4]/UIAStaticText[1]",
+        "{\"id\":\"114\"}"
+      ],
+      "result": "getElementText:Laptop RAM Upgrade",
+      "subLogs": [],
+      "duration": 4836
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[5]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 115",
+      "subLogs": [],
+      "duration": 2720
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[5]/UIAStaticText[3]",
+        "{\"id\":\"115\"}"
+      ],
+      "result": "getElementText:5.56 miles",
+      "subLogs": [],
+      "duration": 4821
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[5]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 116",
+      "subLogs": [],
+      "duration": 2861
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[5]/UIAStaticText[1]",
+        "{\"id\":\"116\"}"
+      ],
+      "result": "getElementText:Laptop Motherboard Replacement",
+      "subLogs": [],
+      "duration": 5031
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[5]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 117",
+      "subLogs": [],
+      "duration": 2517
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[5]/UIAStaticText[3]",
+        "{\"id\":\"117\"}"
+      ],
+      "result": "getElementText:5.56 miles",
+      "subLogs": [],
+      "duration": 4829
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[5]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 118",
+      "subLogs": [],
+      "duration": 2719
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[5]/UIAStaticText[1]",
+        "{\"id\":\"118\"}"
+      ],
+      "result": "getElementText:Laptop Motherboard Replacement",
+      "subLogs": [],
+      "duration": 4960
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIATableCell, using=xpath}"
+      ],
+      "result": "[id: 119, id: 120, id: 121, id: 122, id: 123]",
+      "subLogs": [],
+      "duration": 2724
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIATableCell, using=xpath}"
+      ],
+      "result": "[id: 124, id: 125, id: 126, id: 127, id: 128]",
+      "subLogs": [],
+      "duration": 2736
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 129",
+      "subLogs": [],
+      "duration": 2670
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[1]",
+        "{\"id\":\"129\"}"
+      ],
+      "result": "getElementText:Laptop Screen Replacement",
+      "subLogs": [],
+      "duration": 4813
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[2], using=xpath}"
+      ],
+      "result": "id: 130",
+      "subLogs": [],
+      "duration": 2719
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[2]",
+        "{\"id\":\"130\"}"
+      ],
+      "result": "getElementText:Infostretch Corporation",
+      "subLogs": [],
+      "duration": 4860
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 131",
+      "subLogs": [],
+      "duration": 2688
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[3]",
+        "{\"id\":\"131\"}"
+      ],
+      "result": "getElementText:4.36 miles",
+      "subLogs": [],
+      "duration": 4832
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[2]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 132",
+      "subLogs": [],
+      "duration": 2736
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[2]/UIAStaticText[1]",
+        "{\"id\":\"132\"}"
+      ],
+      "result": "getElementText:Microwave Repairing",
+      "subLogs": [],
+      "duration": 4829
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[2]/UIAStaticText[2], using=xpath}"
+      ],
+      "result": "id: 133",
+      "subLogs": [],
+      "duration": 2726
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[2]/UIAStaticText[2]",
+        "{\"id\":\"133\"}"
+      ],
+      "result": "getElementText:Microwave Repairing",
+      "subLogs": [],
+      "duration": 4814
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[2]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 134",
+      "subLogs": [],
+      "duration": 2735
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[2]/UIAStaticText[3]",
+        "{\"id\":\"134\"}"
+      ],
+      "result": "getElementText:4.80 miles",
+      "subLogs": [],
+      "duration": 4721
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[3]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 135",
+      "subLogs": [],
+      "duration": 2829
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[3]/UIAStaticText[1]",
+        "{\"id\":\"135\"}"
+      ],
+      "result": "getElementText:Router Replacement",
+      "subLogs": [],
+      "duration": 4832
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[3]/UIAStaticText[2], using=xpath}"
+      ],
+      "result": "id: 136",
+      "subLogs": [],
+      "duration": 2719
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[3]/UIAStaticText[2]",
+        "{\"id\":\"136\"}"
+      ],
+      "result": "getElementText:Router Replacement",
+      "subLogs": [],
+      "duration": 4831
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[3]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 137",
+      "subLogs": [],
+      "duration": 2844
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[3]/UIAStaticText[3]",
+        "{\"id\":\"137\"}"
+      ],
+      "result": "getElementText:5.26 miles",
+      "subLogs": [],
+      "duration": 4742
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[4]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 138",
+      "subLogs": [],
+      "duration": 2731
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[4]/UIAStaticText[1]",
+        "{\"id\":\"138\"}"
+      ],
+      "result": "getElementText:Laptop RAM Upgrade",
+      "subLogs": [],
+      "duration": 4734
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[4]/UIAStaticText[2], using=xpath}"
+      ],
+      "result": "id: 139",
+      "subLogs": [],
+      "duration": 3048
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[4]/UIAStaticText[2]",
+        "{\"id\":\"139\"}"
+      ],
+      "result": "getElementText:Laptop RAM Upgrade",
+      "subLogs": [],
+      "duration": 4595
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[4]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 140",
+      "subLogs": [],
+      "duration": 2720
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[4]/UIAStaticText[3]",
+        "{\"id\":\"140\"}"
+      ],
+      "result": "getElementText:5.36 miles",
+      "subLogs": [],
+      "duration": 4851
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[5]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 141",
+      "subLogs": [],
+      "duration": 2629
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[5]/UIAStaticText[1]",
+        "{\"id\":\"141\"}"
+      ],
+      "result": "getElementText:Laptop Motherboard Replacement",
+      "subLogs": [],
+      "duration": 4914
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[5]/UIAStaticText[2], using=xpath}"
+      ],
+      "result": "id: 142",
+      "subLogs": [],
+      "duration": 2938
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[5]/UIAStaticText[2]",
+        "{\"id\":\"142\"}"
+      ],
+      "result": "getElementText:Laptop Motherboard Replacement",
+      "subLogs": [],
+      "duration": 4938
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[5]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 143",
+      "subLogs": [],
+      "duration": 2611
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[5]/UIAStaticText[3]",
+        "{\"id\":\"143\"}"
+      ],
+      "result": "getElementText:5.56 miles",
+      "subLogs": [],
+      "duration": 4734
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIATableCell, using=xpath}"
+      ],
+      "result": "[id: 144, id: 145, id: 146, id: 147, id: 148]",
+      "subLogs": [],
+      "duration": 2814
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 149",
+      "subLogs": [],
+      "duration": 2703
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[1]",
+        "{\"id\":\"149\"}"
+      ],
+      "result": "getElementText:Laptop Screen Replacement",
+      "subLogs": [],
+      "duration": 4941
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIATableCell, using=xpath}"
+      ],
+      "result": "[id: 150, id: 151, id: 152, id: 153, id: 154]",
+      "subLogs": [],
+      "duration": 2625
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[2], using=xpath}"
+      ],
+      "result": "id: 155",
+      "subLogs": [],
+      "duration": 2714
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[2]",
+        "{\"id\":\"155\"}"
+      ],
+      "result": "getElementText:Infostretch Corporation",
+      "subLogs": [],
+      "duration": 4922
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Location set to : Pune",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Location set to : Ahmedabad, Gujrat",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

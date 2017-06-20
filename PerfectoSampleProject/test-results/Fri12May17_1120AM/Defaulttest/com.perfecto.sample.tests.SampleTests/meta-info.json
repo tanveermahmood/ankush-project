@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "VerifyListOfItems",
+        "sign": "SampleTests.VerifyListOfItems()[pri:0, instance:com.perfecto.sample.tests.SampleTests@2a70a3d8]"
+      },
+      "dependsOn": [],
+      "startTime": 1494568237516,
+      "duration": 74527,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

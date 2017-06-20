@@ -1,0 +1,3 @@
+loginscr.email.login = {\"locator\":\"xpath=//UIATextField\",\"desc\":\"EditText for Email\"}
+loginscr.password.login = {\"locator\":\"xpath=//UIASecureTextField\",\"desc\":\"android.widget.EditText\"}
+loginscr.btn.login = {\"locator\":\"name=Submit\",\"desc\":\"Button for Sign In\"}

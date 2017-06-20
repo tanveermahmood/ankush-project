@@ -1,0 +1,9 @@
+
+
+SCENARIO: SampleTest
+META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
+	
+	Given i open the application
+	
+END
+

@@ -1,0 +1,3 @@
+input.email.login = {\"locator\":\"id=email\",\"desc\":\"EditText for Email\"}
+input.password.login = {\"locator\":\"id=password\",\"desc\":\"android.widget.EditText\"}
+btn.signin.login = {\"locator\":\"id=email_sign_in_button\",\"desc\":\"Button for Sign In\"}

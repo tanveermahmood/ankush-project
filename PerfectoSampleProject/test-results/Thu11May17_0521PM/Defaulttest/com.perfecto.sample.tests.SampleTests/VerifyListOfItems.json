@@ -1,0 +1,62 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIAMapView/UIAElement, using=xpath}"
+      ],
+      "result": "id: 0",
+      "subLogs": [],
+      "duration": 3938
+    },
+    {
+      "commandName": "getElementSize",
+      "args": [
+        "By.xpath: //UIAMapView/UIAElement",
+        "{\"id\":\"0\"}"
+      ],
+      "result": "getElementSize:{width=90, hCode=2880, class=org.openqa.selenium.Dimension, height=89}",
+      "subLogs": [],
+      "duration": 6179
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIAMapView/UIAElement, using=xpath}"
+      ],
+      "result": "id: 1",
+      "subLogs": [],
+      "duration": 2331
+    },
+    {
+      "commandName": "getElementLocation",
+      "args": [
+        "By.xpath: //UIAMapView/UIAElement",
+        "{\"id\":\"1\"}"
+      ],
+      "result": "getElementLocation:{x=569, y=296, hCode=596639744, class=org.openqa.selenium.Point}",
+      "subLogs": [],
+      "duration": 6989
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIAMapView/UIAElement, using=xpath}"
+      ],
+      "result": "id: 2",
+      "subLogs": [],
+      "duration": 2426
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Failed to execute command touch sequence: touch command failed. Reason: handset server: Multi-touch is not supported for this device\nCommand duration or timeout: 48.18 seconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-11_11_51_41_14903&timestamp=1494503501222, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170511/RemoteWebDriver_17-05-11_11_51_41_14903.xml&ownerId=is_user1@infostretch.com&sharingCode=21c49887-1665-4b78-b2ab-a7050ce741f4, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-11_11_51_41_14903&timestamp=1494503501222, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-11_11_51_41_14903, webdriver.remote.sessionid=2f9ab7d4-af30-4478-858c-bbf73b0baa47, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170511/RemoteWebDriver_17-05-11_11_51_41_14903.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170511/RemoteWebDriver_17-05-11_11_51_41_14903.xml&ownerId=is_user1@infostretch.com&sharingCode=21c49887-1665-4b78-b2ab-a7050ce741f4, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 2f9ab7d4-af30-4478-858c-bbf73b0baa47",
+      "type": "Fail",
+      "screenshot": "img/VerifyListOfItems_1lm4a7owa9at10674.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.WebDriverException: Failed to execute command touch sequence: touch command failed. Reason: handset server: Multi-touch is not supported for this device\nCommand duration or timeout: 48.18 seconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-11_11_51_41_14903&timestamp=1494503501222, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170511/RemoteWebDriver_17-05-11_11_51_41_14903.xml&ownerId=is_user1@infostretch.com&sharingCode=21c49887-1665-4b78-b2ab-a7050ce741f4, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-11_11_51_41_14903&timestamp=1494503501222, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-11_11_51_41_14903, webdriver.remote.sessionid=2f9ab7d4-af30-4478-858c-bbf73b0baa47, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170511/RemoteWebDriver_17-05-11_11_51_41_14903.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170511/RemoteWebDriver_17-05-11_11_51_41_14903.xml&ownerId=is_user1@infostretch.com&sharingCode=21c49887-1665-4b78-b2ab-a7050ce741f4, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 2f9ab7d4-af30-4478-858c-bbf73b0baa47\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)\r\n\tat io.appium.java_client.AppiumDriver.performMultiTouchAction(AppiumDriver.java:317)\r\n\tat io.appium.java_client.MultiTouchAction.perform(MultiTouchAction.java:71)\r\n\tat io.appium.java_client.AppiumDriver.zoom(AppiumDriver.java:442)\r\n\tat com.perfecto.sample.pages.TasklistTestPage.selectFirstTask(TasklistTestPage.java:69)\r\n\tat com.perfecto.sample.tests.SampleTests.VerifyListOfItems(SampleTests.java:30)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:781)\r\n\tat org.testng.TestRunner.run(TestRunner.java:635)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)\r\nCaused by: java.lang.RuntimeException: Failed to execute command touch sequence: touch command failed. Reason: handset server: Multi-touch is not supported for this device\r\n\tat com.perfectomobile.selenium.MobileEntity.processCommonResponse(MobileEntity.java:102)\r\n\tat com.perfectomobile.selenium.MobileDevice.processResponse(MobileDevice.java:527)\r\n\tat com.perfectomobile.selenium.MobileTouchScreen.processResponse(MobileTouchScreen.java:172)\r\n\tat com.perfectomobile.selenium.MobileEntity.executeCommand(MobileEntity.java:57)\r\n\tat com.perfectomobile.selenium.MobileEntity.executeCommand(MobileEntity.java:50)\r\n\tat com.perfectomobile.selenium.MobileTouchScreen.performMultiTouchAction(MobileTouchScreen.java:263)\r\n\tat com.perfectomobile.selenium.server.appium.MultiTouchAction.mobileCall(MultiTouchAction.java:25)\r\n\tat com.perfectomobile.selenium.server.appium.MultiTouchAction.mobileCall(MultiTouchAction.java:13)\r\n\tat com.perfectomobile.selenium.server.MobileWebDriverHandler.call(MobileWebDriverHandler.java:27)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat org.openqa.selenium.remote.server.MobileDefaultSession$1.run(MobileDefaultSession.java:188)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\r\n\tat java.lang.Thread.run(Thread.java:745)\r\n"
+}

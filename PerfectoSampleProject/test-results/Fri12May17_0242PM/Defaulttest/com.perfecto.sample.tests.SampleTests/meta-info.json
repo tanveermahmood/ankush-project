@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "LocationSet",
+        "sign": "SampleTests.LocationSet()[pri:0, instance:com.perfecto.sample.tests.SampleTests@2a70a3d8]"
+      },
+      "dependsOn": [],
+      "startTime": 1494580379239,
+      "duration": 152299,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

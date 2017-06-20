@@ -1,0 +1,34 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "justTry",
+        "sign": "SampleTests.justTry()[pri:0, instance:com.perfecto.sample.tests.SampleTests@2a70a3d8]"
+      },
+      "dependsOn": [],
+      "startTime": 1494572821416,
+      "duration": 7260,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "VerifyListOfItems",
+        "sign": "SampleTests.VerifyListOfItems()[pri:0, instance:com.perfecto.sample.tests.SampleTests@2a70a3d8]"
+      },
+      "dependsOn": [],
+      "startTime": 1494572828707,
+      "duration": 0,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

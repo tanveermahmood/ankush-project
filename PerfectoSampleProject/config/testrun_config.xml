@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QAS Demo" verbose="0">
+
+	<test name="iOS BDD Test" enabled="true">
+		<parameter name="env.resources" value="resources"></parameter>
+		<parameter name="driver.capabilities.deviceName" value="9EB54791"></parameter>
+		<!-- <parameter name="scenario.file.loc" value="scenarios" /> -->
+		<classes>
+			<class name="com.perfecto.sample.tests.SampleTests"></class>
+		</classes>
+	</test>
+
+<!-- 	<test name="Android BDD Test" enabled="true"> -->
+<!-- 		<parameter name="env.resources" value="resources/android"></parameter> -->
+<!-- 		<parameter name="scenario.file.loc" value="scenarios" />  -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"></class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+
+
+
+</suite>

@@ -1,0 +1,2 @@
+tasklist.cmp.tasks = {\"locator\":\"xpath=//UIATableCell\",\"desc\":\"list of task components\"}
+tasklist.map.targetPlace = {\"locator\":\"xpath=//UIAElement[@name='%s']\",\"desc\":\"place to be find\"}

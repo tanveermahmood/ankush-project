@@ -1,0 +1,583 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "[id: 0]",
+      "subLogs": [],
+      "duration": 4956
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "id: 1",
+      "subLogs": [],
+      "duration": 2316
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.xpath: //UIANavigationBar",
+        "{\"using\":\"xpath\",\"id\":\"1\",\"value\":\"//UIAButton[@name='Back']\"}"
+      ],
+      "result": "findChildElements:[id: 2]",
+      "subLogs": [],
+      "duration": 2307
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "[id: 3]",
+      "subLogs": [],
+      "duration": 2219
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "id: 4",
+      "subLogs": [],
+      "duration": 2409
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.xpath: //UIANavigationBar",
+        "{\"using\":\"xpath\",\"id\":\"4\",\"value\":\"//UIAButton[@name='Back']\"}"
+      ],
+      "result": "findChildElements:[id: 5]",
+      "subLogs": [],
+      "duration": 2206
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "id: 6",
+      "subLogs": [],
+      "duration": 2220
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //UIANavigationBar",
+        "{\"using\":\"xpath\",\"id\":\"6\",\"value\":\"//UIAButton[@name='Back']\"}"
+      ],
+      "result": "findChildElement:id: 7",
+      "subLogs": [],
+      "duration": 2309
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //UIAButton[@name='Back']",
+        "{\"id\":\"7\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 4274
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "id: 8",
+      "subLogs": [],
+      "duration": 2460
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //UIANavigationBar",
+        "{\"using\":\"xpath\",\"id\":\"8\",\"value\":\"//UIAButton[@name='Logout']\"}"
+      ],
+      "result": "findChildElement:id: 9",
+      "subLogs": [],
+      "duration": 2220
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //UIAButton[@name='Logout']",
+        "{\"id\":\"9\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 4598
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATextField, using=xpath}"
+      ],
+      "result": "id: 10",
+      "subLogs": [],
+      "duration": 2126
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: //UIATextField",
+        "{\"id\":\"10\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 9115
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATextField, using=xpath}"
+      ],
+      "result": "id: 11",
+      "subLogs": [],
+      "duration": 4223
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //UIATextField",
+        "{\"id\":\"11\",\"value\":[\"test@test.com\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 4462
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIASecureTextField, using=xpath}"
+      ],
+      "result": "id: 12",
+      "subLogs": [],
+      "duration": 2239
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: //UIASecureTextField",
+        "{\"id\":\"12\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 5520
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIASecureTextField, using=xpath}"
+      ],
+      "result": "id: 13",
+      "subLogs": [],
+      "duration": 4315
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //UIASecureTextField",
+        "{\"id\":\"13\",\"value\":[\"test\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 4330
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=Submit, using=name}"
+      ],
+      "result": "id: 14",
+      "subLogs": [],
+      "duration": 2298
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: Submit",
+        "{\"id\":\"14\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 4552
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIATableCell, using=xpath}"
+      ],
+      "result": "[id: 15, id: 16, id: 17, id: 18, id: 19]",
+      "subLogs": [],
+      "duration": 2282
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIATableCell, using=xpath}"
+      ],
+      "result": "[id: 20, id: 21, id: 22, id: 23, id: 24]",
+      "subLogs": [],
+      "duration": 2207
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 25",
+      "subLogs": [],
+      "duration": 2315
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[1]",
+        "{\"id\":\"25\"}"
+      ],
+      "result": "getElementText:Microwave Repairing",
+      "subLogs": [],
+      "duration": 4416
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[2], using=xpath}"
+      ],
+      "result": "id: 26",
+      "subLogs": [],
+      "duration": 2407
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[2]",
+        "{\"id\":\"26\"}"
+      ],
+      "result": "getElementText:Microwave Repairing",
+      "subLogs": [],
+      "duration": 4312
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 27",
+      "subLogs": [],
+      "duration": 2313
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[3]",
+        "{\"id\":\"27\"}"
+      ],
+      "result": "getElementText:0.00 miles",
+      "subLogs": [],
+      "duration": 4433
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[2]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 28",
+      "subLogs": [],
+      "duration": 2324
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[2]/UIAStaticText[1]",
+        "{\"id\":\"28\"}"
+      ],
+      "result": "getElementText:Laptop Motherboard Replacement",
+      "subLogs": [],
+      "duration": 4403
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[2]/UIAStaticText[2], using=xpath}"
+      ],
+      "result": "id: 29",
+      "subLogs": [],
+      "duration": 2314
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[2]/UIAStaticText[2]",
+        "{\"id\":\"29\"}"
+      ],
+      "result": "getElementText:Laptop Motherboard Replacement",
+      "subLogs": [],
+      "duration": 4422
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[2]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 30",
+      "subLogs": [],
+      "duration": 2316
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[2]/UIAStaticText[3]",
+        "{\"id\":\"30\"}"
+      ],
+      "result": "getElementText:0.00 miles",
+      "subLogs": [],
+      "duration": 4314
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[3]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 31",
+      "subLogs": [],
+      "duration": 2315
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[3]/UIAStaticText[1]",
+        "{\"id\":\"31\"}"
+      ],
+      "result": "getElementText:Laptop RAM Upgrade",
+      "subLogs": [],
+      "duration": 4404
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[3]/UIAStaticText[2], using=xpath}"
+      ],
+      "result": "id: 32",
+      "subLogs": [],
+      "duration": 2316
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[3]/UIAStaticText[2]",
+        "{\"id\":\"32\"}"
+      ],
+      "result": "getElementText:Laptop RAM Upgrade",
+      "subLogs": [],
+      "duration": 4316
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[3]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 33",
+      "subLogs": [],
+      "duration": 2317
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[3]/UIAStaticText[3]",
+        "{\"id\":\"33\"}"
+      ],
+      "result": "getElementText:0.00 miles",
+      "subLogs": [],
+      "duration": 4419
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[4]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 34",
+      "subLogs": [],
+      "duration": 2317
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[4]/UIAStaticText[1]",
+        "{\"id\":\"34\"}"
+      ],
+      "result": "getElementText:Router Replacement",
+      "subLogs": [],
+      "duration": 4406
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[4]/UIAStaticText[2], using=xpath}"
+      ],
+      "result": "id: 35",
+      "subLogs": [],
+      "duration": 2519
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[4]/UIAStaticText[2]",
+        "{\"id\":\"35\"}"
+      ],
+      "result": "getElementText:Router Replacement",
+      "subLogs": [],
+      "duration": 4310
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[4]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 36",
+      "subLogs": [],
+      "duration": 2323
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[4]/UIAStaticText[3]",
+        "{\"id\":\"36\"}"
+      ],
+      "result": "getElementText:0.00 miles",
+      "subLogs": [],
+      "duration": 4407
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[5]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 37",
+      "subLogs": [],
+      "duration": 2309
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[5]/UIAStaticText[1]",
+        "{\"id\":\"37\"}"
+      ],
+      "result": "getElementText:Laptop Screen Replacement",
+      "subLogs": [],
+      "duration": 4317
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[5]/UIAStaticText[2], using=xpath}"
+      ],
+      "result": "id: 38",
+      "subLogs": [],
+      "duration": 2316
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[5]/UIAStaticText[2]",
+        "{\"id\":\"38\"}"
+      ],
+      "result": "getElementText:Infostretch Corporation",
+      "subLogs": [],
+      "duration": 4522
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[5]/UIAStaticText[3], using=xpath}"
+      ],
+      "result": "id: 39",
+      "subLogs": [],
+      "duration": 2410
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[5]/UIAStaticText[3]",
+        "{\"id\":\"39\"}"
+      ],
+      "result": "getElementText:0.00 miles",
+      "subLogs": [],
+      "duration": 4331
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIATableCell, using=xpath}"
+      ],
+      "result": "[id: 40, id: 41, id: 42, id: 43, id: 44]",
+      "subLogs": [],
+      "duration": 2301
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 45",
+      "subLogs": [],
+      "duration": 2392
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[1]",
+        "{\"id\":\"45\"}"
+      ],
+      "result": "getElementText:Microwave Repairing",
+      "subLogs": [],
+      "duration": 4423
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIATableCell, using=xpath}"
+      ],
+      "result": "[id: 46, id: 47, id: 48, id: 49, id: 50]",
+      "subLogs": [],
+      "duration": 2315
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[2], using=xpath}"
+      ],
+      "result": "id: 51",
+      "subLogs": [],
+      "duration": 2314
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[2]",
+        "{\"id\":\"51\"}"
+      ],
+      "result": "getElementText:Microwave Repairing",
+      "subLogs": [],
+      "duration": 4311
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Failed to execute command keyboard display: Command execution failed - operation is not supported\nCommand duration or timeout: 220 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-11_12_47_13_15112&timestamp=1494506833500, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=3B74D48CD1555F29B76D55F495D01B384E2E7F58, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170511/RemoteWebDriver_17-05-11_12_47_13_15112.xml&ownerId=is_user1@infostretch.com&sharingCode=27cfa59e-ba56-44ad-a0d4-20043d051285, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-11_12_47_13_15112&timestamp=1494506833500, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-11_12_47_13_15112, webdriver.remote.sessionid=ac79819f-a992-4ce7-bdbb-065cf9dbc20c, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170511/RemoteWebDriver_17-05-11_12_47_13_15112.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170511/RemoteWebDriver_17-05-11_12_47_13_15112.xml&ownerId=is_user1@infostretch.com&sharingCode=27cfa59e-ba56-44ad-a0d4-20043d051285, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: ac79819f-a992-4ce7-bdbb-065cf9dbc20c",
+      "type": "Fail",
+      "screenshot": "img/VerifyListOfItems_1jpuqjm11dojy33327.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.WebDriverException: Failed to execute command keyboard display: Command execution failed - operation is not supported\nCommand duration or timeout: 220 milliseconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: io.appium.java_client.ios.IOSDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-11_12_47_13_15112&timestamp=1494506833500, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=3B74D48CD1555F29B76D55F495D01B384E2E7F58, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170511/RemoteWebDriver_17-05-11_12_47_13_15112.xml&ownerId=is_user1@infostretch.com&sharingCode=27cfa59e-ba56-44ad-a0d4-20043d051285, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-11_12_47_13_15112&timestamp=1494506833500, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-11_12_47_13_15112, webdriver.remote.sessionid=ac79819f-a992-4ce7-bdbb-065cf9dbc20c, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170511/RemoteWebDriver_17-05-11_12_47_13_15112.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170511/RemoteWebDriver_17-05-11_12_47_13_15112.xml&ownerId=is_user1@infostretch.com&sharingCode=27cfa59e-ba56-44ad-a0d4-20043d051285, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: ac79819f-a992-4ce7-bdbb-065cf9dbc20c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:185)\r\n\tat io.appium.java_client.AppiumDriver.hideKeyboard(AppiumDriver.java:268)\r\n\tat com.perfecto.sample.pages.TasklistTestPage.selectFirstTask(TasklistTestPage.java:46)\r\n\tat com.perfecto.sample.tests.SampleTests.VerifyListOfItems(SampleTests.java:25)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:781)\r\n\tat org.testng.TestRunner.run(TestRunner.java:635)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)\r\nCaused by: java.lang.RuntimeException: Failed to execute command keyboard display: Command execution failed - operation is not supported\r\n\tat com.perfectomobile.selenium.MobileEntity.processCommonResponse(MobileEntity.java:102)\r\n\tat com.perfectomobile.selenium.MobileDevice.processResponse(MobileDevice.java:527)\r\n\tat com.perfectomobile.selenium.MobileKeyboard.processResponse(MobileKeyboard.java:124)\r\n\tat com.perfectomobile.selenium.MobileEntity.executeCommand(MobileEntity.java:57)\r\n\tat com.perfectomobile.selenium.MobileEntity.executeCommand(MobileEntity.java:50)\r\n\tat com.perfectomobile.selenium.MobileKeyboard.updateDisplayMode(MobileKeyboard.java:119)\r\n\tat com.perfectomobile.selenium.MobileKeyboard.updateDisplayMode(MobileKeyboard.java:112)\r\n\tat com.perfectomobile.selenium.server.appium.HideKeyboard.mobileCall(HideKeyboard.java:20)\r\n\tat com.perfectomobile.selenium.server.appium.HideKeyboard.mobileCall(HideKeyboard.java:12)\r\n\tat com.perfectomobile.selenium.server.MobileWebDriverHandler.call(MobileWebDriverHandler.java:27)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat org.openqa.selenium.remote.server.MobileDefaultSession$1.run(MobileDefaultSession.java:188)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\r\n\tat java.lang.Thread.run(Thread.java:745)\r\n"
+}

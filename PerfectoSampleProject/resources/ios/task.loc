@@ -1,0 +1,3 @@
+task.lnk.name = {\"locator\":\"xpath=//UIATableCell[%d]/UIAStaticText[1]\"}
+task.lbl.description = {\"locator\":\"xpath=//UIATableCell[%d]/UIAStaticText[2]\"}
+task.lbl.distance = {\"locator\":\"xpath=//UIATableCell[%d]/UIAStaticText[3]\"}

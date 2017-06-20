@@ -1,0 +1,250 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "[id: 0]",
+      "subLogs": [],
+      "duration": 3791
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "id: 1",
+      "subLogs": [],
+      "duration": 1427
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.xpath: //UIANavigationBar",
+        "{\"using\":\"xpath\",\"id\":\"1\",\"value\":\"//UIAButton[@name='Back']\"}"
+      ],
+      "result": "findChildElements:[]",
+      "subLogs": [],
+      "duration": 1711
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "[id: 2]",
+      "subLogs": [],
+      "duration": 2230
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "id: 3",
+      "subLogs": [],
+      "duration": 1422
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.xpath: //UIANavigationBar",
+        "{\"using\":\"xpath\",\"id\":\"3\",\"value\":\"//UIAButton[@name='Logout']\"}"
+      ],
+      "result": "findChildElements:[id: 4]",
+      "subLogs": [],
+      "duration": 1629
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "[id: 5]",
+      "subLogs": [],
+      "duration": 1429
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "id: 6",
+      "subLogs": [],
+      "duration": 1328
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.xpath: //UIANavigationBar",
+        "{\"using\":\"xpath\",\"id\":\"6\",\"value\":\"//UIAButton[@name='Back']\"}"
+      ],
+      "result": "findChildElements:[]",
+      "subLogs": [],
+      "duration": 1431
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "id: 7",
+      "subLogs": [],
+      "duration": 1330
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //UIANavigationBar",
+        "{\"using\":\"xpath\",\"id\":\"7\",\"value\":\"//UIAButton[@name='Logout']\"}"
+      ],
+      "result": "findChildElement:id: 8",
+      "subLogs": [],
+      "duration": 1423
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //UIAButton[@name='Logout']",
+        "{\"id\":\"8\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 2401
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATextField, using=xpath}"
+      ],
+      "result": "id: 9",
+      "subLogs": [],
+      "duration": 2560
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: //UIATextField",
+        "{\"id\":\"9\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 9219
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATextField, using=xpath}"
+      ],
+      "result": "id: 10",
+      "subLogs": [],
+      "duration": 2518
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //UIATextField",
+        "{\"id\":\"10\",\"value\":[\"test@test.com\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 4721
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIASecureTextField, using=xpath}"
+      ],
+      "result": "id: 11",
+      "subLogs": [],
+      "duration": 2326
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: //UIASecureTextField",
+        "{\"id\":\"11\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 5890
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIASecureTextField, using=xpath}"
+      ],
+      "result": "id: 12",
+      "subLogs": [],
+      "duration": 4571
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //UIASecureTextField",
+        "{\"id\":\"12\",\"value\":[\"test\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 3661
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=Submit, using=name}"
+      ],
+      "result": "id: 13",
+      "subLogs": [],
+      "duration": 2492
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: Submit",
+        "{\"id\":\"13\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 4517
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "[id: 14]",
+      "subLogs": [],
+      "duration": 2516
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "id: 15",
+      "subLogs": [],
+      "duration": 2331
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.xpath: //UIANavigationBar",
+        "{\"using\":\"xpath\",\"id\":\"15\",\"value\":\"//UIAButton[@name='Logout']\"}"
+      ],
+      "result": "findChildElements:[id: 16]",
+      "subLogs": [],
+      "duration": 2525
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Expected TextView for Logout present : Actual TextView for Logout present",
+      "type": "Pass",
+      "screenshot": "img/validLoginTest_1wa2o3fdl2oxd33740.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

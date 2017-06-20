@@ -1,0 +1,36 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Set device location using perfecto command and Verify distance",
+        "groups": [],
+        "name": "LocationSet",
+        "sign": "SampleTests.LocationSet()[pri:1, instance:com.perfecto.sample.tests.SampleTests@2a70a3d8]"
+      },
+      "dependsOn": [],
+      "startTime": 1494593476085,
+      "duration": 584587,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Add Note by taking camera picture",
+        "groups": [],
+        "name": "Test2",
+        "sign": "SampleTests.Test2()[pri:2, instance:com.perfecto.sample.tests.SampleTests@2a70a3d8]"
+      },
+      "dependsOn": [],
+      "startTime": 1494594060720,
+      "duration": 164575,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+taskDetails.lbl.name = {\"locator\":\"xpath=//UIAScrollView/UIAStaticText[1]\",\"desc\":\"task name\"}
+taskDetails.lbl.description = {\"locator\":\"xpath=//UIAScrollView/UIAStaticText[2]\",\"desc\":\"task description\"}
+taskDetails.txtbox.note = {\"locator\":\"xpath=//*[@label=\\\"Notes:\\\"]/following-sibling::UIATextView\",\"desc\":\"task note\"}
+taskDetails.btn.assign = {\"locator\":\"xpath=//*[@label=\\\"Assign to me\\\"]\",\"desc\":\"Assign me button\"}
+taskDetails.header.lbl.details = {\"locator\":\"xpath=//*[@label=\\\"Details\\\"]\",\"desc\":\"page title\"}
+taskDetails.btn.addPhoto = {\"locator\":\"xpath=//*[@label=\\\"Add Photo\\\"]\",\"desc\":\"adding photo to notes\"}
+taskDetails.btn.takePhoto = {\"locator\":\"xpath=//*[@label=\\\"Take Photo\\\"]\",\"desc\":\"switching to camera\"}
+taskDetails.btn.clickoncamera = {\"locator\":\"xpath=//*[@label=\\\"Take Picture\\\"]\",\"desc\":\"clicking from camera\"}
+taskDetails.btn.usePhoto = {\"locator\":\"xpath=//*[@label=\\\"Use Photo\\\"]\",\"desc\":\"using clicked photo\"}
+taskDetails.img.verifyImg = {\"locator\":\"xpath=//UIAImage\",\"desc\":\"verify image\"}
+taskDetails.btn.Start = {\"locator\":\"xpath=//*[@label=\\\"Start\\\"]\",\"desc\":\"start button\"}

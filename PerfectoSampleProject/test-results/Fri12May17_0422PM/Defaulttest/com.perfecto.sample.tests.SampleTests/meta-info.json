@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "Test2",
+        "sign": "SampleTests.Test2()[pri:0, instance:com.perfecto.sample.tests.SampleTests@2a70a3d8]"
+      },
+      "dependsOn": [],
+      "startTime": 1494586337081,
+      "duration": 128293,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIAMapView, using=xpath}"
+      ],
+      "result": "id: 0",
+      "subLogs": [],
+      "duration": 4661
+    }
+  ],
+  "checkPoints": []
+}

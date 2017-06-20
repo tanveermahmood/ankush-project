@@ -1,0 +1,13 @@
+{
+  "name": "QAS Demo",
+  "status": "unstable",
+  "tests": [
+    "iOSBDDTest"
+  ],
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "startTime": 1494487350957,
+  "endTime": 1494487417386
+}

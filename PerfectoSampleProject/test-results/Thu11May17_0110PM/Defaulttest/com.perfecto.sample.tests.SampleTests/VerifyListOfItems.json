@@ -1,0 +1,23 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@class=\"UIATableCell\"], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 3456
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@class=\"UIATableCell\"], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 1127
+    }
+  ],
+  "checkPoints": []
+}

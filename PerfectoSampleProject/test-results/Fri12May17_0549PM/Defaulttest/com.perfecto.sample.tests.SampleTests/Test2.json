@@ -1,0 +1,625 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "[id: 0]",
+      "subLogs": [],
+      "duration": 3375
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "id: 1",
+      "subLogs": [],
+      "duration": 1422
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.xpath: //UIANavigationBar",
+        "{\"using\":\"xpath\",\"id\":\"1\",\"value\":\"//UIAButton[@name='Back']\"}"
+      ],
+      "result": "findChildElements:[id: 2]",
+      "subLogs": [],
+      "duration": 1406
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "[id: 3]",
+      "subLogs": [],
+      "duration": 1328
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "id: 4",
+      "subLogs": [],
+      "duration": 1516
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.xpath: //UIANavigationBar",
+        "{\"using\":\"xpath\",\"id\":\"4\",\"value\":\"//UIAButton[@name='Back']\"}"
+      ],
+      "result": "findChildElements:[id: 5]",
+      "subLogs": [],
+      "duration": 1422
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "id: 6",
+      "subLogs": [],
+      "duration": 1422
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //UIANavigationBar",
+        "{\"using\":\"xpath\",\"id\":\"6\",\"value\":\"//UIAButton[@name='Back']\"}"
+      ],
+      "result": "findChildElement:id: 7",
+      "subLogs": [],
+      "duration": 1416
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //UIAButton[@name='Back']",
+        "{\"id\":\"7\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 2453
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIANavigationBar, using=xpath}"
+      ],
+      "result": "id: 8",
+      "subLogs": [],
+      "duration": 2594
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //UIANavigationBar",
+        "{\"using\":\"xpath\",\"id\":\"8\",\"value\":\"//UIAButton[@name='Logout']\"}"
+      ],
+      "result": "findChildElement:id: 9",
+      "subLogs": [],
+      "duration": 2447
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //UIAButton[@name='Logout']",
+        "{\"id\":\"9\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 3422
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATextField, using=xpath}"
+      ],
+      "result": "id: 10",
+      "subLogs": [],
+      "duration": 2547
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: //UIATextField",
+        "{\"id\":\"10\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 9325
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATextField, using=xpath}"
+      ],
+      "result": "id: 11",
+      "subLogs": [],
+      "duration": 4641
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //UIATextField",
+        "{\"id\":\"11\",\"value\":[\"test@test.com\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 4688
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIASecureTextField, using=xpath}"
+      ],
+      "result": "id: 12",
+      "subLogs": [],
+      "duration": 2359
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: //UIASecureTextField",
+        "{\"id\":\"12\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 5860
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIASecureTextField, using=xpath}"
+      ],
+      "result": "id: 13",
+      "subLogs": [],
+      "duration": 4688
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //UIASecureTextField",
+        "{\"id\":\"13\",\"value\":[\"test\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 3516
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=Submit, using=name}"
+      ],
+      "result": "id: 14",
+      "subLogs": [],
+      "duration": 2547
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.name: Submit",
+        "{\"id\":\"14\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 4494
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIATableCell, using=xpath}"
+      ],
+      "result": "[id: 15, id: 16, id: 17, id: 18, id: 19]",
+      "subLogs": [],
+      "duration": 2751
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//UIATableCell[1]/UIAStaticText[1], using=xpath}"
+      ],
+      "result": "id: 20",
+      "subLogs": [],
+      "duration": 2297
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //UIATableCell[1]/UIAStaticText[1]",
+        "{\"id\":\"20\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 3501
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//*[@label=\"Details\"], using=xpath}"
+      ],
+      "result": "[id: 21]",
+      "subLogs": [],
+      "duration": 2532
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Details\"], using=xpath}"
+      ],
+      "result": "id: 22",
+      "subLogs": [],
+      "duration": 2423
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //*[@label=\"Details\"]",
+        "{\"id\":\"22\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 3422
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Add Photo\"], using=xpath}"
+      ],
+      "result": "id: 23",
+      "subLogs": [],
+      "duration": 969
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@label=\"Add Photo\"]",
+        "{\"id\":\"23\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 2719
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Take Photo\"], using=xpath}"
+      ],
+      "result": "id: 24",
+      "subLogs": [],
+      "duration": 2517
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@label=\"Take Photo\"]",
+        "{\"id\":\"24\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 4766
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Take Picture\"], using=xpath}"
+      ],
+      "result": "id: 25",
+      "subLogs": [],
+      "duration": 2531
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@label=\"Take Picture\"]",
+        "{\"id\":\"25\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 4493
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Use Photo\"], using=xpath}"
+      ],
+      "result": "id: 26",
+      "subLogs": [],
+      "duration": 3094
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@label=\"Use Photo\"]",
+        "{\"id\":\"26\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 4383
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIAImage, using=xpath}"
+      ],
+      "result": "[id: 27]",
+      "subLogs": [],
+      "duration": 2625
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//UIAImage, using=xpath}"
+      ],
+      "result": "[id: 28]",
+      "subLogs": [],
+      "duration": 2532
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.59 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1602
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.39 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1390
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.41 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1407
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.33 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1328
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.53 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1531
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.31 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1312
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.41 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1406
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.52 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1532
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.32 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1321
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.42 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1422
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.72 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1718
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 2.13 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 2125
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.31 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1312
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.42 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1422
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.52 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1515
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.41 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1408
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.31 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1313
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.53 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1531
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.41 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1407
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.41 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1406
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.42 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1422
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.42 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1422
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.42 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1423
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.54 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1536
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@label=\"Assign to me\"], using=xpath}"
+      ],
+      "result": "Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.33 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}",
+      "subLogs": [],
+      "duration": 1328
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@label=\"Assign to me\"]",
+        "{\"id\":\"-1\"}"
+      ],
+      "result": "Timed out after 60 seconds waiting for presence of element located by: By.xpath: //*[@label=\"Assign to me\"]\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: QAFExtendedWebDriver",
+      "subLogs": [],
+      "duration": -56872188
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Expected page title visible : Actual page title visible",
+      "type": "Pass",
+      "screenshot": "img/Test2_13rxch5y10ttk44786.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Image has been added succesfully",
+      "type": "Info",
+      "screenshot": "img/Test2_1di0am2dtpc7y44787.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Timed out after 60 seconds waiting for presence of element located by: By.xpath: //*[@label=\"Assign to me\"]\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: QAFExtendedWebDriver",
+      "type": "Fail",
+      "screenshot": "img/Test2_qm44vgp84a3444788.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 60 seconds waiting for presence of element located by: By.xpath: //*[@label=\"Assign to me\"]\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: QAFExtendedWebDriver\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:214)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:284)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:239)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\r\n\tat com.perfecto.sample.pages.TaskdetailsTestPage.assignToMe(TaskdetailsTestPage.java:94)\r\n\tat com.perfecto.sample.tests.SampleTests.Test2(SampleTests.java:81)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:781)\r\n\tat org.testng.TestRunner.run(TestRunner.java:635)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nCommand duration or timeout: 1.33 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.infostretch.sourceapp, reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, appPath=PUBLIC:Public Media\trainingperfectoResigned_FieldService.ipa, deviceName=883A694706D73CD320FEFEC47F3ECF69BD97C9CD, platform=ANY, password=, driverClass=io.appium.java_client.ios.IOSDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, applicationName=FieldService, rotatable=true, testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692&timestamp=1494591554525, entityType=appium_driver, bundleId=com.infostretch.inhouseapp, offlineToken=, serverConnector=, executionId=is_user1@infostretch.com_RemoteWebDriver_17-05-12_12_19_14_16692, webdriver.remote.sessionid=134c1a19-0a89-4b96-9b44-1d66b4ef9d15, autoLaunch=false, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/170512/RemoteWebDriver_17-05-12_12_19_14_16692.xml&ownerId=is_user1@infostretch.com&sharingCode=f501ecfe-9d5f-462e-89b2-f75f7b062ce5, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 134c1a19-0a89-4b96-9b44-1d66b4ef9d15\n*** Element info: {Using=xpath, value=//*[@label=\"Assign to me\"]}\r\n\tat sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:398)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementByXPath(QAFExtendedWebDriver.java:1)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:169)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:1)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)\r\n\t... 31 more\r\nCaused by: org.openqa.selenium.NoSuchElementException: Element with by xpath '//*[@label=\"Assign to me\"]' wasn't found.\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'\nSystem info: host: 'acdfd5587953', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-47-generic', java.version: '1.8.0_102'\nDriver info: driver.version: EventFiringWebDriver\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12425', ip: '192.168.169.2', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_121'\nDriver info: driver.version: EventFiringWebDriver\r\n\tat com.perfectomobile.selenium.MobileApplication.getSingleElement(MobileApplication.java:370)\r\n\tat com.perfectomobile.selenium.MobileApplication.findElementByXPath(MobileApplication.java:211)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat com.perfectomobile.selenium.MobileApplication.findElement(MobileApplication.java:150)\r\n\tat com.perfectomobile.selenium.server.PerfectoMobileDriver.findElement(PerfectoMobileDriver.java:739)\r\n\tat sun.reflect.GeneratedMethodAccessor2755.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:102)\r\n\tat com.sun.proxy.$Proxy268.findElement(Unknown Source)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)\r\n\tat org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)\r\n\tat org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:33)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat org.openqa.selenium.remote.server.MobileDefaultSession$1.run(MobileDefaultSession.java:188)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\r\n\tat java.lang.Thread.run(Thread.java:745)\r\n"
+}

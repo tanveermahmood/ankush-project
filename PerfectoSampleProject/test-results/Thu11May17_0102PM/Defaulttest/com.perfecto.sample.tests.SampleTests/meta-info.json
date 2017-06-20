@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "validLoginTest",
+        "sign": "SampleTests.validLoginTest()[pri:0, instance:com.perfecto.sample.tests.SampleTests@2a70a3d8]"
+      },
+      "dependsOn": [],
+      "startTime": 1494487934829,
+      "duration": 99637,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

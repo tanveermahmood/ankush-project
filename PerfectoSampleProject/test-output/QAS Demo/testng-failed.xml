@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [QAS Demo]">
+  <test name="iOS BDD Test(failed)">
+    <parameter name="env.resources" value="resources/ios"/>
+    <classes>
+      <class name="com.perfecto.sample.tests.SampleTests">
+        <methods>
+          <include name="VerifyListOfItems"/>
+        </methods>
+      </class> <!-- com.perfecto.sample.tests.SampleTests -->
+    </classes>
+  </test> <!-- iOS BDD Test(failed) -->
+</suite> <!-- Failed suite [QAS Demo] -->
